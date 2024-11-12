@@ -1,0 +1,22 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}%
+\contentsline {chapter}{\numberline {2}General Information}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Presentation of MS Innovative Smart System}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Curriculum}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Student Profile}{5}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Curriculum Vitae}{6}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Background}{7}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Training units}{7}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}apprenticeship}{9}{subsection.2.2.5}%
+\contentsline {subsubsection}{Descriptive}{9}{subsection.2.2.5}%
+\contentsline {chapter}{\numberline {3}Communication}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Energy For Connected Oject}{10}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Descriptive}{10}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Technical}{10}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Analytical}{12}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Middleware and service}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Cloud and Edge Computing}{13}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Descriptive}{13}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Technical}{14}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Analytical Part}{14}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Annexes}{14}{section.4.3}%

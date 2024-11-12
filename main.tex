@@ -1,0 +1,85 @@
+\documentclass[a4paper,12pt]{report}
+
+
+\input{preambule}
+
+
+\usepackage{background}
+\backgroundsetup{
+scale=1,
+angle=0,
+opacity=1,
+color=black,
+contents={\begin{tikzpicture}[remember picture,overlay]
+\node at ([xshift=-0.8in,yshift=0.8in] current page.south east) % Adjust the position of the logo.
+{\includegraphics[scale=0.8]{image/pattern.png}}; % logo goes here
+\end{tikzpicture}}
+}
+
+\begin{document}
+\raggedbottom
+% Title page
+\begin{titlepage}
+    \centering
+
+    
+    \noindent 
+    \begin{minipage}{0.5\textwidth}
+        \includegraphics[width=0.5\linewidth]{image/Logo_INSAToulouse-quadri.png} 
+    \end{minipage}%
+    \hfill 
+    \begin{minipage}{0.5\textwidth}
+        \flushright 
+        \includegraphics[width=0.5\linewidth]{image/logo_universite_toulouse.png}
+    \end{minipage}
+
+
+    \vspace*{2cm} 
+    {\Huge\bfseries Portfolio \par}
+    \vspace{1cm}
+    {\huge Innovative Smart System \par}
+    \vspace{2cm}
+    {\Large \textbf{VASSEUR Cyril} \par}
+    \vspace{2cm}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth]{image/LOGO_ISS.png}
+    \end{figure}
+    
+    \vfill
+    {\Large \textbf{Institut National des Sciences Appliquées de Toulouse} \par}
+    \vspace{1cm}
+    {\large \today \par}
+\end{titlepage}
+
+
+\begin{abstract}
+
+    This portfolio was prepared as part of the second year of a Master’s program in Innovative Smart Systems (ISS) at INSA Toulouse.
+    Its purpose is to provide a comprehensive overview of my academic year, detailing the skills and knowledge I gained, along with my reflections on each course taken during the program.
+    Within this portfolio, you’ll find summaries of each course, including insights on the topics covered and my personal assessments. 
+    Additionally, it includes reports from practical sessions (laboratory work) and project-based exercises that allowed me to apply theoretical concepts in real-world contexts.
+
+\end{abstract}
+
+
+% Table of content
+\renewcommand\contentsname{Table of contents}
+\tableofcontents
+\newpage
+
+% Inclusion des chapter
+\input{Introduction}
+\input{Generality}
+\input{Communication}
+\input{Middleware_and_service}
+
+% Inclusion des chapter
+
+\section{Annexes}
+\includepdf[scale=0.7,pages={1 21}]{annexe/BIENDOU-BRUNETTO-VASSEUR-Cloud_Computing_Report.pdf}
+
+
+
+\end{document}

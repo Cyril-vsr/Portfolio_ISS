@@ -1,0 +1,26 @@
+% Preambule.tex
+% Packages de base
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{pdfpages}
+\usepackage[english]{babel} % Langue française
+\usepackage{amsmath, amssymb} % Mathématiques
+\usepackage{graphicx} % Insertion d'images
+\usepackage{hyperref} % Hyperliens
+\usepackage{geometry} % Mise en page
+\usepackage{fancyhdr} % Pour personnaliser l'en-tête et le pied de page
+\usepackage{float}
+\usepackage{titlesec}
+\usepackage{caption}
+
+
+% Configurations spécifiques
+\geometry{a4paper, margin=2.5cm} % Marges de la page
+\setlength{\parskip}{\baselineskip} % Espacement entre les paragraphes
+\setlength{\parindent}{0pt} % Pas d'indentation au début des paragraphes
+
+\titleformat{\chapter}[hang]  % Utilisation du format 'hang' pour que tout soit sur la même ligne
+  {\normalfont\huge\bfseries} % Style du titre (police normale, taille énorme, gras)
+  {Chapter \thechapter\ \, :\ } % Format "Chapter" suivi du numéro du chapitre et des deux-points avec un espace après
+  {0pt}                        % Pas d'espace supplémentaire
+  {\huge}                       % Taille du texte du titre du chapitre
