@@ -2,25 +2,98 @@
 % Packages de base
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{pdfpages}
-\usepackage[english]{babel} % Langue française
+\usepackage[english]{babel} % Langue anglaise
 \usepackage{amsmath, amssymb} % Mathématiques
 \usepackage{graphicx} % Insertion d'images
+\usepackage{pdfpages} % Insertion de PDF
 \usepackage{hyperref} % Hyperliens
 \usepackage{geometry} % Mise en page
-\usepackage{fancyhdr} % Pour personnaliser l'en-tête et le pied de page
-\usepackage{float}
-\usepackage{titlesec}
-\usepackage{caption}
-
+\usepackage{fancyhdr} % En-tête et pied de page personnalisés
+\usepackage{float} % Gestion des flottants (figures, tableaux, etc.)
+\usepackage{titlesec} % Personnalisation des titres
+\usepackage{caption} % Configuration des légendes
+\usepackage{subcaption} % Sous-figures et sous-légendes
+\usepackage{booktabs} % Tableaux esthétiques
+\usepackage{colortbl} % Couleurs dans les tableaux
+\usepackage{xcolor} % Couleurs dans le texte et les éléments
+\usepackage{listings} % Pour le code source
+\usepackage{setspace} % Contrôle de l'interligne
+\usepackage{enumitem} % Personnalisation des listes
+\usepackage{tikz} % Dessins et schémas
+\usepackage{blindtext} % Texte de remplissage
 
 % Configurations spécifiques
-\geometry{a4paper, margin=2.5cm} % Marges de la page
+\geometry{a4paper, margin=2.5cm} % Marges
 \setlength{\parskip}{\baselineskip} % Espacement entre les paragraphes
-\setlength{\parindent}{0pt} % Pas d'indentation au début des paragraphes
+\setlength{\parindent}{0pt} % Pas d'indentation
 
-\titleformat{\chapter}[hang]  % Utilisation du format 'hang' pour que tout soit sur la même ligne
-  {\normalfont\huge\bfseries} % Style du titre (police normale, taille énorme, gras)
-  {Chapter \thechapter\ \, :\ } % Format "Chapter" suivi du numéro du chapitre et des deux-points avec un espace après
-  {0pt}                        % Pas d'espace supplémentaire
-  {\huge}                       % Taille du texte du titre du chapitre
+% Personnalisation des titres de chapitres et sections
+\titleformat{\chapter}[hang]  
+  {\normalfont\huge\bfseries}
+  {Chapter \thechapter\ \, :\ }
+  {0pt}
+  {\huge}
+
+% Apparence des sections
+\titleformat{\section}
+  {\normalfont\Large\bfseries}
+  {\thesection.}{0.5em}{}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}
+  {\thesubsection.}{0.5em}{}
+
+% Apparence des légendes
+\captionsetup{
+  font=small,
+  labelfont=bf,
+  format=hang,
+  justification=centering,
+  singlelinecheck=true
+}
+
+% Apparence des hyperliens
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=blue,
+  urlcolor=teal,
+  bookmarksopen=true
+}
+
+% En-tête et pied de page
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\thepage} % Numéro de page
+\fancyfoot[C]{\textit{Portfolio 2024-2025}} % Texte centré en bas de page
+
+% Configuration des listes
+\setlist[itemize]{itemsep=5pt, topsep=5pt}
+\setlist[enumerate]{itemsep=5pt, topsep=5pt}
+
+% Style des listings pour le code source
+\lstset{
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue}\bfseries,
+  stringstyle=\color{red},
+  commentstyle=\color{green!50!black},
+  backgroundcolor=\color{gray!10},
+  frame=single,
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  breaklines=true,
+  captionpos=b
+}
+
+% Mise en page de l'interligne
+\onehalfspacing % Interligne 1,5 pour améliorer la lisibilité
+
+% Exemples d'utilisation des couleurs
+\definecolor{myblue}{HTML}{007BFF}
+\definecolor{mygray}{HTML}{6C757D}
+\definecolor{myteal}{HTML}{20C997}
+\definecolor{mypurple}{HTML}{6F42C1}
+
+% Exemples de TikZ pour des schémas simples
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, text width=10em, text centered, rounded corners, minimum height=3em]
+\tikzstyle{line} = [draw, -latex']

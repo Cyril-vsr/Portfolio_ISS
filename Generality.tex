@@ -1,4 +1,6 @@
 \chapter{General Information}
+\thispagestyle{fancy}
+
 
 \section{Presentation of MS Innovative Smart System}
 
@@ -35,13 +37,12 @@ email: vasseu@insa-toulouse.fr.  \\
 
 \subsection{Curriculum Vitae}
 
-
-\noindent
-\begin{minipage}{\textwidth} 
+\begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{image/CV_CYRIL VASSEUR.png}
-    \label{fig:CV} 
-\end{minipage}
+    \includegraphics[width=0.6\textwidth]{image/CV_CYRIL VASSEUR.png}
+    \caption{Curriculum Vitae}
+    \label{fig:Curriculum Vitae}
+\end{figure}
 
 \vspace{1em} 
 
@@ -56,7 +57,7 @@ After completing my Master’s, I continued at Thales Alenia Space to pursue my 
 
 
 
-\subsection{Training units}
+\section{Training units}
 
 Below, you can find the overview of the various courses completed in the ISS program.
 
@@ -103,7 +104,7 @@ Below, you can find the overview of the various courses completed in the ISS pro
     \label{fig:Smart devices}
 \end{figure}
 \newpage
-\begin{figure}[H]
+\begin{figure}[!ht]
     \centering
     \includegraphics[width=0.8\textwidth]{image/Security.png}
     \caption{Security Unit}
@@ -111,6 +112,39 @@ Below, you can find the overview of the various courses completed in the ISS pro
 \end{figure}
 
 
-\subsection{apprenticeship}
+\section{Apprenticeship}
 
-\subsubsection{Descriptive}
+\subsection{Why did I choose an apprenticeship}
+
+During my years at INSA, I chose to pursue an apprenticeship, which is a way to combine academic studies with practical work in a company that finances both the training and the apprentice. This arrangement benefits the company by allowing it to train a future employee in advance so that they are operational immediately upon graduation.
+
+In my first year at INSA, I was employed by Plastic Omnium. The department where I worked had recently been acquired, leading to significant changes in company policies. Consequently, most engineers who had transitioned into the new structure eventually decided to resign, including my former supervisor and my manager. After spending several months in this uncertain environment, I was offered the opportunity to leave the company to seek a more stable situation.
+
+My decision strongly inclined toward Thales Alenia Space (TAS), primarily due to the nature of its activities and its reputation, which I heard about through word of mouth. I applied for several positions and was ultimately accepted for one as a Satellite Navigation Software Apprentice Engineer. I joined TAS in September 2023, allowing me to start the new academic year with peace of mind. I have remained with TAS since then, completing my final year of studies alongside my work with them.
+
+\subsection{My sector of activities with Thales Alenia Space}
+
+GNSS systems transmit information about the position and clock bias of each satellite, enabling users to locate themselves in the Earth-centered WGS 84 reference frame. However, the accuracy of GNSS navigation data is only guaranteed for a maximum of six hours, meaning there is a possibility that a satellite may broadcast erroneous positional information. While such errors usually do not affect non-critical systems, GNSS systems are not recommended for life-critical applications, such as guiding aircraft during airport approaches.
+
+To address this limitation, the concept of an augmentation system was introduced. This system has two primary missions. The first is to calculate correction messages that allow aviation users relying on single-frequency GNSS signals to achieve precise localization. The second mission involves real-time monitoring of GNSS navigation data to detect anomalies and alert aviation users within a timeframe compatible with their flight phase.
+
+Given that the requirements of civil aviation often cover extensive areas, using a geostationary satellite emerged as an obvious solution. Such an augmentation system is known as SBAS (Satellite-Based Augmentation System). An SBAS broadcasts a signal containing information about the reliability and accuracy of positioning signals from GPS and Galileo. This signal is designed to be processed by users without requiring major modifications.
+
+The role of an SBAS is to analyze the various elements contributing to measurement errors and then broadcast dedicated augmentation messages containing corrections for each of these elements. User receivers recompose these corrections based on their geographic position, enhancing positioning accuracy and mitigating sources of error related to satellite clocks, positioning, and ionospheric effects.
+
+\subsection{My mission and the final project}
+ 
+
+My apprenticeship at Thales Alenia Space has been a defining and enriching experience, filled with diverse assignments and stimulating responsibilities. From the beginning, I benefited from a structured onboarding process that allowed me to master the tools and workflows essential to project execution.
+
+Working in a collaborative environment with open spaces that encourage communication and quick problem resolution, I discovered the importance of high-performance equipment. For instance, I worked with a workstation equipped with 92 cores and 256 GB of RAM, which enabled me to run complex simulations, process large datasets, and maintain high levels of efficiency.
+
+Agile methodology was at the heart of my activities, where I participated in daily meetings, sprint planning, and retrospectives. This approach allowed me to efficiently plan tasks and collaborate seamlessly with my team. It was particularly valuable for software development projects, where I used tools like Git to manage project lifecycles—from branch creation to pull requests—ensuring the quality of the produced code.
+
+During this period, I used various programming languages, primarily Python and C. With Python, I developed analysis scripts and optimized existing tools to reduce execution times. I also worked on graphical representations to facilitate result interpretation and improve collaboration. In C, I designed features such as a stack trace to secure program execution, addressing complex issues related to compilation configurations, such as managing warnings and improving code flexibility.
+
+A key mission was ensuring the quality of non-regression tests for SBAS scenarios. I updated outdated configurations and developed simulation scenarios covering diverse use cases. This involved managing massive datasets, ensuring traceability of changes, and maintaining reliable reference outputs. I also worked on enhancing scenario configurability, making the system more adaptable to new requirements.
+
+Additionally, I contributed to resolving over 3,000 warnings during the compilation process—a challenge requiring a structured and collaborative approach. I developed automation tools to classify issues and proposed tailored solutions that balanced efficiency with compliance with company standards. These activities helped me develop a critical perspective and an analytical approach to complex technical problems.
+
+In conclusion, my year at Thales Alenia Space allowed me to solidify my technical skills, immerse myself in a high-tech environment, and make meaningful contributions to the company’s projects. This experience motivates me to pursue a career in software engineering, tackling increasingly ambitious challenges.
