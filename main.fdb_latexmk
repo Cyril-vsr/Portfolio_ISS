@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1733824706.74552 "/Users/cyril/INSA/Portfolio_ISS/main.tex" "main.pdf" "main" 1733824710.72085 0
+["pdflatex"] 1736184004.34924 "/Users/cyril/INSA/Portfolio_ISS/main.tex" "main.pdf" "main" 1736184006.56111 0
   "/Users/cyril/INSA/Portfolio_ISS/main.tex" 1733824226.48452 2488 b124e87c41d73ab2f4fd01207bd42b86 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -195,10 +195,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1730654206.74848 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1730654177 8221426 381ef2d0a753ac5a1e9519462267951a ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "Communication.tex" 1733824264.90075 9629 84cf1ed21fafa1bab950158837f45c83 ""
+  "Communication.tex" 1736175936.95179 19798 a2d3674ccc4714d71cccbc0c2693cca8 ""
   "Generality.tex" 1733824701.31614 10574 30d387c479188d2a31d2ff25cb934574 ""
   "Introduction.tex" 1733824277.20805 330 923ae07f2685daa4952a90419edadb01 ""
-  "Middleware_and_service.tex" 1733824288.33277 3712 3b2e72d2a04fb6ab3227d09dee683849 ""
+  "Middleware_and_service.tex" 1736183994.39658 10829 77236cacae06a495e5a589ea77dd3a41 ""
   "SmartDevice.tex" 1733824298.26026 278 99ae77b625aec78828df1aeba5362c97 ""
   "image/Analysis and data processing, business applications.png" 1731405962.02223 156784 5c0359e9e1f373f28fc5b3b61145efe8 ""
   "image/Business startup.png" 1731405962.02267 92257 92b710d1bc9cfb08004aea559e45c2c1 ""
@@ -213,10 +213,10 @@
   "image/Smart devices.png" 1731405962.02828 173038 de31f25fcbb03fb13f46858e53d13591 ""
   "image/logo_universite_toulouse.png" 1731405962.02846 8173 c53e82c427b12f203cdee117a61bb20f ""
   "image/pattern.png" 1731405962.02853 665 2b980e7ed97463e5dbc46eb4ecd1a1da ""
-  "main.aux" 1733824710.6068 10547 663dbc28e8ccf46b2a77bbe617598a75 "pdflatex"
-  "main.out" 1733824710.60813 6769 e144f27ac8534275bc596de59f11208b "pdflatex"
+  "main.aux" 1736184006.44874 11785 bcf66a4b844149d49a362e7ffc98ca4f "pdflatex"
+  "main.out" 1736184006.45025 10571 8b8ac35925006dc1c4ad9503476d87aa "pdflatex"
   "main.tex" 1733824226.48452 2488 b124e87c41d73ab2f4fd01207bd42b86 ""
-  "main.toc" 1733824710.60834 4002 0a487e9486bb1cbc44b96c9e3cd0a78e "pdflatex"
+  "main.toc" 1736184006.45052 4706 026d6c38d07b35a191759fce4f717186 "pdflatex"
   "preambule.tex" 1733823799.39383 2939 1e5e7e25b43e082fa1594473689d7ec8 ""
   (generated)
   "main.aux"

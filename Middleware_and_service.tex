@@ -3,7 +3,7 @@
 
 
 \section{Cloud and Edge Computing}
-\subsection{Descriptive}
+\subsection{Conceptual Foundations of Cloud and Edge Computing}
 
 
 The Cloud and Edge Computing course, taught by Dr. Sami YANGUI, explores key concepts and technologies related to distributed computing, cloud computing, and edge computing. This course is essential for students specializing in Innovative Smart Systems, as it covers the fundamentals needed to understand how Internet of Things (IoT) systems interact with cloud and edge architectures, thus optimizing data processing and management.
@@ -18,24 +18,76 @@ Edge Computing: This technique brings data processing closer to the sources, red
 
 The course also covers virtualization and the role of hypervisors in enabling the simultaneous operation of multiple operating systems on a single physical infrastructure, which is crucial for resource management in cloud and edge environments.
 
-\subsection{Technical}
+\subsection{Technical Architectures and Practical Applications}
 
 Technically, the course delves into the architectures needed to set up cloud and edge systems suitable for the constraints of IoT applications. The concept of virtualization is central, particularly with the use of type-1 (bare-metal) and type-2 (hosted) hypervisors, which allow for flexible and efficient resource allocation. These hypervisors also ensure process isolation, reducing the risk of conflicts and optimizing security.
 
 One key technical aspect of the course is cloud federation and the portability of applications between different environments. Through federation, multiple cloud services can collaborate to better manage load spikes. For example, in fleet management applications, a hybrid cloud infrastructure can dynamically distribute tasks between the centralized cloud and edge nodes to ensure continuous availability and low latency.
 
-The practical work allows students to deepen their use of containers (such as with Docker) and cluster management via Kubernetes. As part of the lab project, students set up a hybrid cloud-edge architecture capable of handling the mobility and dynamic availability of edge nodes, simulating events like road accidents or construction sites. The goal is to maintain reliable service throughout a journey by replicating services across the network and migrating services between nodes when necessary.
+The practical work allows to deepen the use of containers (such as with Docker) and cluster management via Kubernetes. As part of the lab project, we set up a hybrid cloud-edge architecture capable of handling the mobility and dynamic availability of edge nodes. The goal is to maintain reliable service throughout a journey by replicating services across the network and migrating services between nodes when necessary.
 
-Finally, the course covers deployment models, such as IaaS (Infrastructure as a Service), PaaS (Platform as a Service), and SaaS (Software as a Service), which offer varying levels of control and flexibility. Students learn to choose the appropriate model based on the specific needs of IoT applications, as well as how to design scalable and autonomous services to optimize costs and performance.
+Finally, the course covers deployment models, such as IaaS (Infrastructure as a Service), PaaS (Platform as a Service), and SaaS (Software as a Service), which offer varying levels of control and flexibility. We learned to choose the appropriate model based on the specific needs of IoT applications, as well as how to design scalable and autonomous services to optimize costs and performance.
 
-\subsection{Analytical Part}
-Voici le contenu de la première section.
+\subsection{Insights and Practical Reflections}
 
-\section{Service Oriented Architecture}
+This course was entirely new to me, despite having previously used virtual machines (VMs) during my apprenticeship. In that context, I only interacted with pre-configured VMs and had no experience setting them up. Learning about the underlying techniques of virtualization and containerization was particularly fascinating and, I believe, invaluable for both my professional and personal development. These technologies offer the flexibility to create different environments, which can be essential for various scenarios, such as testing, development, or running specific applications.
 
-\subsection{Descriptive}
-\subsection{Analytical}
-\subsection{Technical}
+The practical sessions, which involved setting up and using VMs and containers, significantly enhanced my understanding of their purpose and functionality. These exercises provided a hands-on experience that bridged the gap between theoretical knowledge and real-world applications, reinforcing the importance of these techniques in modern computing.
+
+I also think introducing this course at the beginning of the academic year was a strategic choice. The principles learned here became foundational, as we applied them in several other courses and within the innovative project. This integration highlighted the interdisciplinary nature of cloud and edge computing, making the course not just a standalone module but a cornerstone of the curriculum.
+
+
+\begin{itemize}
+    \item Understand the concept of cloud computing: 3
+    \item Use a IaaS-type cloud computing:3
+    \item Deploy and adapt a clou-based platform for IoT: 3
+\end{itemize}
+
+Overall, this course provided me with a solid introduction to virtualization and containerization, tools that I am now confident will play a significant role in my future projects and career path.
+
+\section{Service Oriented Architecture and Software Engineering }
+
+\subsection{Foundations and Practical Applications of Service Architectures}
+
+The Service-Oriented Architecture (SOA) and Microservices course provided an in-depth understanding of modern distributed application architectures. It began with the foundational principles of SOA, highlighting how business functionalities are encapsulated into services to enable modularity, reusability, and interoperability across diverse platforms. The course then transitioned into Resource-Oriented Architecture (ROA) and RESTful web services, showcasing their advantages in simplicity and scalability over traditional SOA methods like SOAP.
+
+This course emphasized the evolution from monolithic to microservices-based applications, which split large applications into smaller, independent units. Through this approach, services could be scaled and maintained independently, fostering resilience and flexibility. Cloud-native practices were also introduced, covering deployment on platforms like Microsoft Azure.
+
+Practical sessions involved implementing RESTful microservices. In one lab, we developed a simple microservice that adhered to CRUD (Create, Read, Update, Delete) operations using REST APIs. Another practical task focused on deploying an application to Microsoft Azure, where continuous integration and deployment (CI/CD) practices were demonstrated through GitHub Actions. These hands-on activities enriched the theoretical learning, bridging the gap between conceptual understanding and real-world applications.
+
+\subsection{Architectural Principles and Implementation Techniques in SOA, ROA, and Microservices}
+
+ervice-Oriented Architecture (SOA)
+SOA organizes business functionalities into services that communicate using standardized protocols like SOAP. SOAP employs XML-based messaging, defined by WSDL (Web Service Description Language), which outlines operations, data formats, and endpoints. While robust, SOA’s complexity and high resource demands make it less suitable for lightweight applications, but it remains essential in enterprise environments requiring interoperability.
+
+Resource-Oriented Architecture (ROA)
+ROA adopts the REST (Representational State Transfer) style, simplifying interactions via HTTP methods such as GET, POST, PUT, and DELETE. RESTful services use stateless communications and commonly exchange data in JSON or XML, with JSON preferred for efficiency. Resources are accessed through unique URIs, offering scalability and flexibility, making ROA ideal for web and mobile applications.
+
+Microservices Architecture
+Microservices build on SOA and ROA by decomposing applications into independent, focused services. Each microservice manages its own database and lifecycle, communicating via RESTful APIs. This architecture enhances scalability, resilience, and flexibility. Containerization with Docker ensures consistent deployment, while orchestration tools like Kubernetes manage clusters, handling scaling, load balancing, and service discovery.
+
+Development and Deployment
+The course emphasized building and deploying distributed systems. Practical sessions focused on creating RESTful microservices with CRUD operations, then deploying them on Microsoft Azure using CI/CD pipelines. Docker was used to containerize applications, and GitHub Actions automated the workflow, from building to deployment. These exercises provided hands-on experience in creating scalable, cloud-native applications.
+
+\subsection{Reflections on Learning and Practical Challenges in Service Architectures}
+
+The Service Architecture course introduced me to new concepts, yet I realized that I had unknowingly implemented a REST-based service in the past. As part of the innovative project, I developed a RESTful web application for monitoring our sensors. This course allowed me to better understand the principles behind what I had previously built and provided valuable insights to improve it.
+
+Delivered as a MOOC (partially online course), this format offered a flexible and enriching learning experience. I found the MOOC approach particularly beneficial, as it allowed us to progress at our own pace through the various modules that comprise the course. This flexibility was key to absorbing the technical aspects of the material.
+
+The practical sessions, however, presented a significant challenge due to the workload exceeding the allocated time in the schedule. While the tutorials were conducted during class sessions, the mini-projects in the practical assignments (TD) had to be completed entirely on our personal time. While this workload was necessary to grasp the course concepts, I believe the scheduled time was insufficient to address all aspects comprehensively. Additional TD hours would have been beneficial to manage the work more effectively. That said, completing these assignments prepared us to tackle the larger group project (BE) with relative ease.
+
+In my apprenticeship, service architecture is not a focus, and I do not foresee pursuing a career in this field. Nonetheless, the course remains highly valuable, as the knowledge gained is applicable to personal projects and potentially other professional contexts.
+
+\begin{itemize}
+    \item Know how to define a Service Oriented Architecture: 4
+    \item Deploy an SOA with web service: 4
+    \item Deploy and configure an SOA using SOAP: 3
+    \item Deploy and configure an SOA using REST: 4
+    \item Integrate a process manager in an SOA: 4
+\end{itemize}
+
+
 
 \section{Middleware for IoT}
 
