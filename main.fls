@@ -371,6 +371,10 @@ INPUT ./image/pattern.png
 INPUT ./image/pattern.png
 INPUT ./image/pattern.png
 INPUT ./image/pattern.png
+INPUT ./image/pattern.png
+INPUT ./image/pattern.png
+INPUT ./image/pattern.png
+INPUT ./image/pattern.png
 OUTPUT main.toc
 INPUT ./image/pattern.png
 INPUT ./image/pattern.png
@@ -408,26 +412,11 @@ INPUT ./image/pattern.png
 INPUT ./image/pattern.png
 INPUT ./image/pattern.png
 INPUT ./image/pattern.png
-INPUT ./image/Business startup.png
-INPUT ./image/Business startup.png
-INPUT ./image/Business startup.png
-INPUT ./image/Business startup.png
-INPUT ./image/Business startup.png
-INPUT ./image/Analysis and data processing, business applications.png
-INPUT ./image/Analysis and data processing, business applications.png
-INPUT ./image/Analysis and data processing, business applications.png
-INPUT ./image/Analysis and data processing, business applications.png
-INPUT ./image/Analysis and data processing, business applications.png
 INPUT ./image/Communication.png
 INPUT ./image/Communication.png
 INPUT ./image/Communication.png
 INPUT ./image/Communication.png
 INPUT ./image/Communication.png
-INPUT ./image/Innovation and humanity.png
-INPUT ./image/Innovation and humanity.png
-INPUT ./image/Innovation and humanity.png
-INPUT ./image/Innovation and humanity.png
-INPUT ./image/Innovation and humanity.png
 INPUT ./image/Innovativ project.png
 INPUT ./image/Innovativ project.png
 INPUT ./image/Innovativ project.png
@@ -514,6 +503,10 @@ INPUT ./image/pattern.png
 INPUT ./image/pattern.png
 INPUT ./image/pattern.png
 INPUT ./image/pattern.png
+INPUT ./image/pattern.png
+INPUT ./image/pattern.png
+INPUT ./image/pattern.png
+INPUT ./image/pattern.png
 INPUT ./SmartDevice.tex
 INPUT ./SmartDevice.tex
 INPUT ./SmartDevice.tex
@@ -523,6 +516,33 @@ INPUT ./image/pattern.png
 INPUT ./image/pattern.png
 INPUT ./image/pattern.png
 INPUT ./image/pattern.png
+INPUT ./image/pattern.png
+INPUT ./image/pattern.png
+INPUT ./image/pattern.png
+INPUT ./image/pattern.png
+INPUT ./Security.tex
+INPUT ./Security.tex
+INPUT ./Security.tex
+INPUT ./Security.tex
+INPUT Security.tex
+INPUT ./image/pattern.png
+INPUT ./image/pattern.png
+INPUT ./image/pattern.png
+INPUT ./image/pattern.png
+INPUT ./Innovative_Project.tex
+INPUT ./Innovative_Project.tex
+INPUT ./Innovative_Project.tex
+INPUT ./Innovative_Project.tex
+INPUT Innovative_Project.tex
+INPUT ./image/pattern.png
+INPUT ./image/pattern.png
+INPUT ./image/pattern.png
+INPUT ./image/pattern.png
+INPUT ./Conclusion.tex
+INPUT ./Conclusion.tex
+INPUT ./Conclusion.tex
+INPUT ./Conclusion.tex
+INPUT Conclusion.tex
 INPUT ./image/pattern.png
 INPUT ./image/pattern.png
 INPUT ./image/pattern.png
